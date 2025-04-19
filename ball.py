@@ -24,4 +24,4 @@ class Ball(Turtle):
 
     def reset_position(self):
         self.goto(0, 0)
-        self.bounce_y()
+        self.bounce_x()
